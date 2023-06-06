@@ -8,15 +8,11 @@
                                       · Neovim motions on speed! ·
 
 <p align="center">
-  <img src="https://img.shields.io/github/issues/phaazon/hop.nvim?color=cyan&style=for-the-badge"/>
-  <img src="https://img.shields.io/github/issues-pr/phaazon/hop.nvim?color=green&style=for-the-badge"/>
-  <img src="https://img.shields.io/github/contributors-anon/phaazon/hop.nvim?color=blue&style=for-the-badge"/>
-  <img src="https://img.shields.io/github/last-commit/phaazon/hop.nvim?style=for-the-badge"/>
-  <img src="https://img.shields.io/github/v/tag/phaazon/hop.nvim?color=pink&label=release&style=for-the-badge"/>
-</p>
-
-<p align="center">
-  <a href="#using-vim-plug">Install</a> · <a href="https://github.com/phaazon/hop.nvim/wiki">Wiki</a> · <a href="https://github.com/phaazon/hop.nvim/wiki/Screenshots">Screenshots</a> · <a href="https://matrix.to/#/#hop.nvim:matrix.org">Discuss</a>
+  <img src="https://img.shields.io/github/issues/Fluxxfield/hop-revived.nvim?color=cyan&style=for-the-badge"/>
+  <img src="https://img.shields.io/github/issues-pr/FluxxField/hop-revived.nvim?color=green&style=for-the-badge"/>
+  <img src="https://img.shields.io/github/contributors-anon/FluxxField/hop-revived.nvim?color=blue&style=for-the-badge"/>
+  <img src="https://img.shields.io/github/last-commit/FluxxField/hop-revived.nvim?style=for-the-badge"/>
+  <img src="https://img.shields.io/github/v/tag/FluxxField/hop-revived.nvim?color=pink&label=release&style=for-the-badge"/>
 </p>
 
 This is the revived version of [phaazon](https://github.com/phaazon) famous [hop.nvim](https://github.com/phaazon/hop.nvim)!
