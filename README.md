@@ -8,7 +8,7 @@
                                       · Neovim motions on speed! ·
 
 <p align="center">
-  <img src="https://img.shields.io/github/issues/Fluxxfield/hop-revived.nvim?color=cyan&style=for-the-badge"/>
+  <img src="https://img.shields.io/github/issues/FluxxField/hop-revived.nvim?color=cyan&style=for-the-badge"/>
   <img src="https://img.shields.io/github/issues-pr/FluxxField/hop-revived.nvim?color=green&style=for-the-badge"/>
   <img src="https://img.shields.io/github/contributors-anon/FluxxField/hop-revived.nvim?color=blue&style=for-the-badge"/>
   <img src="https://img.shields.io/github/last-commit/FluxxField/hop-revived.nvim?style=for-the-badge"/>
