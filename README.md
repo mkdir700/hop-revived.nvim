@@ -19,7 +19,7 @@
   <a href="#using-vim-plug">Install</a> · <a href="https://github.com/phaazon/hop.nvim/wiki">Wiki</a> · <a href="https://github.com/phaazon/hop.nvim/wiki/Screenshots">Screenshots</a> · <a href="https://matrix.to/#/#hop.nvim:matrix.org">Discuss</a>
 </p>
 
-This is the revived version of (phaazon)[https://github.com/phaazon] famous (hop.nvim)[https://github.com/phaazon/hop.nvim]!
+This is the revived version of [phaazon](https://github.com/phaazon) famous [hop.nvim](https://github.com/phaazon/hop.nvim)!
 
 **Hop** is an [EasyMotion]-like plugin allowing you to jump anywhere in a
 document with as few keystrokes as possible. It does so by annotating text in
