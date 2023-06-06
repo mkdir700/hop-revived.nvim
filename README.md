@@ -1,11 +1,11 @@
-                          __                                       _                   __
-                         / /_   ____   ____     _____ ___  _   __ (_)_   __ ___   ____/ /
-                        / __ \ / __ \ / __ \   / ___// _ \| | / // /| | / // _ \ / __  / 
-                       / / / // /_/ // /_/ /  / /   /  __/| |/ // / | |/ //  __// /_/ /  
-                      /_/ /_/ \____// .___/  /_/    \___/ |___//_/  |___/ \___/ \__,_/   
-                                   /_/                                                   
+                      __                                       _                   __
+                     / /_   ____   ____     _____ ___  _   __ (_)_   __ ___   ____/ /
+                    / __ \ / __ \ / __ \   / ___// _ \| | / // /| | / // _ \ / __  / 
+                   / / / // /_/ // /_/ /  / /   /  __/| |/ // / | |/ //  __// /_/ /  
+                  /_/ /_/ \____// .___/  /_/    \___/ |___//_/  |___/ \___/ \__,_/   
+                               /_/                                                   
 
-                                      · Neovim motions on speed! ·
+                                  · Neovim motions on speed! ·
 
 <p align="center">
   <img src="https://img.shields.io/github/issues/phaazon/hop.nvim?color=cyan&style=for-the-badge"/>
@@ -42,7 +42,6 @@ target in your document reachable in a few keystrokes.
     * [Nightly users](#nightly-users)
 * [Usage](#usage)
 * [Keybindings](#keybindings)
-* [Chat](#chat)
 
 <!-- vim-markdown-toc -->
 
@@ -99,10 +98,10 @@ point, otherwise the plugin will not work. If your package manager doesn’t sup
 you can call it manually after your plugin is installed:
 
 ```lua
-require'hop'.setup()
+require'hop-revived'.setup()
 ```
 
-To get a default experience. Feel free to customize later the `setup` invocation (`:h hop.setup`). If you do, then you
+To get a default experience. Feel free to customize later the `setup` invocation (`:h hop-revived.setup`). If you do, then you
 will probably want to ensure the configuration is okay by running `:checkhealth`. Various checks will be performed by
 Hop to ensure everything is all good.
 
@@ -115,18 +114,18 @@ dependency to be sure your config will not break when Hop gets updated.
 ### Using vim-plug
 
 ```vim
-Plug 'phaazon/hop.nvim'
+Plug 'FluxxField/hop-revived.nvim'
 ```
 
 ### Using packer
 
 ```lua
 use {
-  'phaazon/hop.nvim',
+  'FluxxField/hop-revived.nvim',
   branch = 'v2', -- optional but strongly recommended
   config = function()
     -- you can configure Hop the way you like here; see :h hop-config
-    require'hop'.setup { keys = 'etovxqpdygfblzhckisuran' }
+    require'hop-revived'.setup { keys = 'etovxqpdygfblzhckisuran' }
   end
 }
 ```
@@ -138,7 +137,7 @@ the last one**. If you are not, then you are exposed to compatibility issues / b
 
 # Usage
 
-See the [wiki](https://github.com/phaazon/hop.nvim/wiki).
+See the [wiki](https://github.com/FluxxField/hop-revived.nvim/wiki).
 
 # Keybindings
 
@@ -148,8 +147,8 @@ If you want to create a key binding from within Lua:
 
 ```lua
 -- place this in one of your configuration file(s)
-local hop = require('hop')
-local directions = require('hop.hint').HintDirection
+local hop = require('hop-revived')
+local directions = require('hop-revived.hint').HintDirection
 vim.keymap.set('', 'f', function()
   hop.hint_char1({ direction = directions.AFTER_CURSOR, current_line_only = true })
 end, {remap=true})
@@ -163,11 +162,3 @@ vim.keymap.set('', 'T', function()
   hop.hint_char1({ direction = directions.BEFORE_CURSOR, current_line_only = true, hint_offset = 1 })
 end, {remap=true})
 ```
-
-# Chat
-
-Join the discussion on the official [Matrix room](https://matrix.to/#/#hop.nvim:matrix.org)!
-
-[EasyMotion]: https://github.com/easymotion/vim-easymotion
-[packer]: https://github.com/wbthomason/packer.nvim
-[SemVer]: https://semver.org
